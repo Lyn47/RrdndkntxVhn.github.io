@@ -1,0 +1,30 @@
+#color-changing-text {
+    display: inline;
+    white-space: nowrap;
+}
+
+.letter {
+    display: inline-block;
+    animation: changeColor 1s linear infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: rgb(0, 255, 170);
+    }
+    20% {
+        color: rgb(16, 190, 221);
+    }
+    40% {
+        color: rgb(16, 169, 230);
+    }
+    60% {
+        color: rgb(40, 80, 168);
+    }
+    80% {
+        color: rgb(25, 66, 202);
+    }
+    100% {
+        color: rgb(111, 0, 255);
+    }
+}
